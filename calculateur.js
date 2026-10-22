@@ -29,6 +29,11 @@ console.log("TOTAL A PAYER: ", montant_final);
 console.log("Prix moyen TTC par produit", prix_moyen);
 
 
+console.log("Type du nom : ", typeof(nom_client));
+console.log("Type du prix : ", typeof(prix_unitaire));
+console.log("Type de la quantité : ", typeof(quantite));
+
+
 
 
 
