@@ -18,3 +18,4 @@ const montant_ttc = montant_total + montant_tva;
 
 const montant_final = montant_ttc + frais_livraison;
 
+const prix_moyen = montant_ttc / quantite;
