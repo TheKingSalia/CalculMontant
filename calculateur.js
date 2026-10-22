@@ -12,4 +12,4 @@ console.log("Prix unitaire: ", prix_unitaire," FCFA");
 
 const montant_total = prix_unitaire * quantite;
 
-
+const montant_tva = montant_total * taux_tva;
