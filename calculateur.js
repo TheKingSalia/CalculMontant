@@ -21,13 +21,12 @@ const montant_final = montant_ttc + frais_livraison;
 const prix_moyen = montant_ttc / quantite;
 
 console.log("Quantite : ", quantite);
-console.log("Montant des produits : ", montant_total);
-console.log("TVA (18%) : ", montant_tva);
-console.log("Montant TTC : ", montant_ttc);
-console.log("Livraison : ", frais_livraison);
-console.log("TOTAL A PAYER: ", montant_final);
-console.log("Prix moyen TTC par produit", prix_moyen);
-
+console.log("Montant des produits : ", montant_total, "FCFA");
+console.log("TVA (18%) : ", montant_tva, "FCFA");
+console.log("Montant TTC : ", montant_ttc, "FCFA");
+console.log("Livraison : ", frais_livraison, "FCFA");
+console.log("TOTAL A PAYER: ", montant_final, "FCFA");
+console.log("Prix moyen TTC par produit", prix_moyen, "FCFA");
 
 console.log("Type du nom : ", typeof(nom_client));
 console.log("Type du prix : ", typeof(prix_unitaire));
