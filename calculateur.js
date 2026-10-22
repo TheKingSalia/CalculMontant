@@ -8,7 +8,8 @@ const taux_tva = 0.18;
 console.log("===RECU DE COMMANDE===");
 console.log("Client: ", nom_client);
 console.log("Produit: ", nom_produit);
-console.log("Prix unitaire: ", prix_unitaire," gFCFA");
+console.log("Prix unitaire: ", prix_unitaire," FCFA");
 
+const montant_total = prix_unitaire * quantite;
 
 
